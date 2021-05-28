@@ -2,7 +2,7 @@
 
  This plugin works with any plugin using PlaceholderAPI
  
- ![Preview](https://i.imgur.com/eYCIBF5.png)
+ ![Preview](https://i.imgur.com/7aN1IiG.png)
  
  **Placeholders:**
   - %balanceformatter_formated% 
