@@ -1,6 +1,6 @@
 # BalanceFormatter
 
- This plugin works with any plugins using PlaceholderAPI
+ This plugin works with any plugin using PlaceholderAPI
  
  ![Preview](https://i.imgur.com/eYCIBF5.png)
  
