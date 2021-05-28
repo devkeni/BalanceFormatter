@@ -1,0 +1,5 @@
+name: BalanceFormatter
+version: @version@
+main: com.devkeni.balanceformatter.BalanceFormatter
+depend: [ Vault, PlaceholderAPI ]
+authors: [ DevKeni, DevTuca ]

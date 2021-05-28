@@ -1,0 +1,8 @@
+#############################################################################
+#  Currency format taken from https://github.com/NextPlugins/NextEconomy/   #
+#    NumberUtils taken from https://github.com/heroslender/HeroVender/      #
+#                                                                           #
+#   Official download link: https://github.com/devkeni/BalanceFormatter/    #
+#############################################################################
+
+money-format: k;M;B;T;Q;QQ;S;SS;OC;N;D;UN;DD;TR;QT;QN;SD;SPD;OD;ND;VG;UVG;DVG;TVG;QTV;QNV;SEV;SPV;OVG;NVG;TG
