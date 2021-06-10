@@ -15,7 +15,7 @@ public class PlaceholderHook extends PlaceholderExpansion {
 
     @Override
     public @NotNull String getAuthor() {
-        return "SigmaNetwork";
+        return "DevKeni";
     }
 
     @Override
