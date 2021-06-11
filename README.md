@@ -15,4 +15,4 @@
   - A Economy Plugin
   
   
-  **Credits:** [NextPlugins](https://github.com/NextPlugins), [Heroslender](https://github.com/Heroslender), [DevTuca](https://github.com/DevTuca)
+  **Credits:** [Heroslender](https://github.com/Heroslender)
