@@ -3,6 +3,7 @@ package com.devkeni.balanceformatter.placeholder;
 import com.devkeni.balanceformatter.util.NumberUtils;
 import lombok.RequiredArgsConstructor;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
+import net.milkbowl.vault.economy.Economy;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;
@@ -11,11 +12,11 @@ import org.jetbrains.annotations.NotNull;
 public class PlaceholderHook extends PlaceholderExpansion {
 
     private final Plugin plugin;
-    private final NumberUtils numberUtils;
+    private final Economy economy;
 
     @Override
     public @NotNull String getAuthor() {
-        return "SigmaNetwork";
+        return "DevKeni";
     }
 
     @Override
@@ -29,11 +30,8 @@ public class PlaceholderHook extends PlaceholderExpansion {
     }
 
     @Override
-    public String onPlaceholderRequest(Player player, String params) {
-        if (params.equalsIgnoreCase("formated")) {
-            return numberUtils.getMoneyFormatted(player);
-        }
-        return params;
+    public String onPlaceholderRequest(Player player, @NotNull String params) {
+        return NumberUtils.format(economy.getBalance(player));
     }
 
 }
