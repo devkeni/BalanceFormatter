@@ -13,6 +13,3 @@
   - Vault
   - PlaceholderAPI
   - A Economy Plugin
-  
-  
-  **Credits:** [Heroslender](https://github.com/Heroslender)
